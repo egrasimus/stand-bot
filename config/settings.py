@@ -5,6 +5,7 @@ BASE_DIR = Path(__file__).parent.parent
 
 # Берем токен из переменных окружения
 TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+STAND_LINKS =  os.getenv('STAND_LINKS')
 
 # Настройки сообщений
 MAX_TASK_LENGTH = 20

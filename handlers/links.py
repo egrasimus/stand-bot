@@ -1,6 +1,6 @@
 from telegram import Update
 from telegram.ext import ContextTypes
-from config.constants import STAND_LINKS
+from config.settings import STAND_LINKS
 from handlers.base import delete_last_message
 
 async def links(update: Update, context: ContextTypes.DEFAULT_TYPE):

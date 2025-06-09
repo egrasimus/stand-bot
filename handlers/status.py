@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import ContextTypes
 from datetime import datetime, timedelta
 from services.stand_manager import stand_manager
-from config.constants import STAND_LINKS
+from config.settings import STAND_LINKS
 from handlers.base import delete_last_message
 import re
 
